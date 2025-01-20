@@ -1,0 +1,97 @@
+@import "./reset.css";
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito";
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.cont {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  font-size: 24px;
+}
+
+.header__logo__cont {
+  margin: 25px 0;
+}
+
+.header__logo {
+  height: 60px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 400px;
+  margin-bottom: 5px;
+}
+
+.flowItem {
+  display: flex;
+  gap: 10px;
+  margin: 25px 0;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.info__flowItem {
+  width: 800px;
+  margin-bottom: 25px;
+}
+
+.author__flowItem {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.text__flowItem {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.profile__flowItem {
+  border: radius 50%;
+}
+
+.avatar__flowItem {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 60px;
+}
+
+.bi-plus-circle-fill {
+  position: relative;
+  right: 15px;
+  top: 3px;
+  cursor: pointer;
+}
+
+.hidden {
+visibility: hidden;
+}
+
+.img__flowItem {
+  height: 500px;
+}
+
