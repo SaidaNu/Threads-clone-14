@@ -65,6 +65,22 @@ body {
   font-size: 20px;
 }
 
+.author_cont {
+  display: flex;
+  gap: 20px;
+}
+
+.unfollow_btn_flowItem {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.unfollow_btn_flowItem:hover {
+  cursor: pointer;
+}
+
 .text__flowItem {
   font-size: 20px;
   margin-bottom: 25px;
@@ -88,10 +104,29 @@ body {
 }
 
 .hidden {
-visibility: hidden;
+  visibility: hidden;
 }
 
 .img__flowItem {
   height: 500px;
 }
 
+.category {
+  padding: 10px;
+}
+
+.category:hover {
+  color: rgb(179, 176, 174);
+  cursor: pointer;
+}
+
+.active_category {
+  background-color: rgb(88, 86, 85);
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.active_category:hover {
+  cursor: pointer;
+}
